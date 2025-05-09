@@ -17,8 +17,8 @@ conn = psycopg2.connect(
 )
 
 # Replace with your OpenWeatherMap API key
-API_KEY = os.getenv("WEATHER_API_KEY", "38d2693cb5fa3502b336d9f0be948dd6")
-BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
+API_KEY = os.getenv("WEATHER_API_KEY", "YOUR_API_KEY)
+BASE_URL = "YOUR_URL"
 
 CITIES = ["Islamabad", "London", "New York", "Tokyo", "Paris", "Sydney", "Mumbai", "Berlin", "Moscow", "Dubai", "Beijing"]
 
